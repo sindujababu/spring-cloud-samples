@@ -1,0 +1,14 @@
+CREATE TABLE COURSE
+(COURSEID INT PRIMARY KEY, 
+COURSENAME VARCHAR(255), 
+BRANCH VARCHAR(255));
+
+BEGIN;
+insert into COURSE values(1,'Java','Chennai');
+insert into COURSE values(2,'.net','Cmb');
+insert into COURSE values(3,'Python','Trichi');
+insert into COURSE values(4,'AWS','Salem');
+COMMIT;
+
+
+
