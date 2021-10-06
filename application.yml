@@ -1,0 +1,13 @@
+server:
+  port: 8761
+  
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+
+info:
+  description: Spring Cloud Samples
+  url: https://github.com/sindujababu/spring-cloud-samples
+
+  
